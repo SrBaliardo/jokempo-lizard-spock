@@ -1,45 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
 
-    <link rel="shortcut icon" href="./src/images/favicon.ico" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./src/images/favicon.ico"
+      type="image/x-icon"
+    />
 
-    <title>Jokempo!(Lizard, Spock)</title>
-</head>
-<body>
-
+    <title>Jokenpô!(Lagarto, Spock)</title>
+  </head>
+  <body>
     <main class="container">
-        <h1 class="title">Pedra-Papel-Tesoura-Lagarto-Spock</h1>
+      <h1 class="title">Pedra-Papel-Tesoura-Lagarto-Spock</h1>
 
-        <div class="btns">
-            <button id="rock" onclick="playUser('rock')">&#9994</button>
-            <button id="paper" onclick="playUser('paper')">&#128400</button>
-            <button id="scissors" onclick="playUser('scissors')">&#9996</button>
-            <button id="lizard" onclick="playUser('lizard')">&#129422</button>
-            <button id="spock" onclick="playUser('spock')">&#128406</button>
-        </div>
+      <div class="btns">
+        <button id="rock" onclick="playUser('rock')">&#9994;</button>
+        <button id="paper" onclick="playUser('paper')">&#128400;</button>
+        <button id="scissors" onclick="playUser('scissors')">&#9996;</button>
+        <button id="lizard" onclick="playUser('lizard')">&#129422;</button>
+        <button id="spock" onclick="playUser('spock')">&#128406;</button>
+      </div>
 
-        <div class="results">
-            <p class="result">"Se você ganhar te dou um dolar"</p>
-            <p class="resolut">"Se eu ganhar você me da umazinha"</p>
-        </div>
+      <div class="results">
+        <p class="result">"Vamos jogar? Melhor de 10!</p>
+        <p class="resolut">
+          Se você ganhar te dou um dolar, mas se eu ganhar, você me paga
+          umazinha"
+        </p>
+      </div>
 
-        <p class="user-score">Sua pontuação: <span class="user-score-n">0</span></p>
-        <p class="ia-score">Pontuação do Rick: <span class="ia-score-n">0</span></p>
+      <p class="user-score">
+        Sua pontuação: <span class="user-score-n">0</span>
+      </p>
+      <p class="ia-score">
+        Pontuação do Rick: <span class="ia-score-n">0</span>
+      </p>
 
-        <div class="ricks">
-            <img class="img-rick" src="./src/images/rick-initial.png" alt="img-rick">
-        </div>
+      <div class="ricks">
+        <img
+          class="img-rick"
+          src="./src/images/rick-initial.png"
+          alt="img-rick"
+        />
+      </div>
     </main>
+  </body>
 
-</body>
-
-<script src="./src/js/script.js"></script>
-
+  <script src="./src/js/script.js"></script>
 </html>
